@@ -11,6 +11,8 @@
 		990F031625F23909002D5084 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990F031525F23909002D5084 /* ContentView.swift */; };
 		990F031825F2390A002D5084 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 990F031725F2390A002D5084 /* Assets.xcassets */; };
 		990F031B25F2390A002D5084 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 990F031A25F2390A002D5084 /* Preview Assets.xcassets */; };
+		990F032425F23939002D5084 /* QuestionsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990F032325F23939002D5084 /* QuestionsData.swift */; };
+		998A29DA25F607A7003378C1 /* QuestionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998A29D925F607A7003378C1 /* QuestionList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		990F031725F2390A002D5084 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		990F031A25F2390A002D5084 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		990F031C25F2390A002D5084 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		990F032325F23939002D5084 /* QuestionsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsData.swift; sourceTree = "<group>"; };
+		998A29D925F607A7003378C1 /* QuestionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				990F031325F23909002D5084 /* MikeGuessGameApp.swift */,
 				990F031525F23909002D5084 /* ContentView.swift */,
+				998A29D925F607A7003378C1 /* QuestionList.swift */,
+				990F032325F23939002D5084 /* QuestionsData.swift */,
 				990F031725F2390A002D5084 /* Assets.xcassets */,
 				990F031C25F2390A002D5084 /* Info.plist */,
 				990F031925F2390A002D5084 /* Preview Content */,
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				990F031625F23909002D5084 /* ContentView.swift in Sources */,
+				998A29DA25F607A7003378C1 /* QuestionList.swift in Sources */,
+				990F032425F23939002D5084 /* QuestionsData.swift in Sources */,
 				990F031425F23909002D5084 /* MikeGuessGameApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
